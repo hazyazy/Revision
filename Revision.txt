@@ -1,0 +1,11 @@
+creating a branch:
+	git checkout-b branch      
+
+pushing it into github:
+	git push origin branch
+
+going back to master:
+	git checkout master
+
+
+  
