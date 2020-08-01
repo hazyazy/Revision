@@ -1,0 +1,25 @@
+creating a branch:
+	git checkout -b branch      
+
+pushing it into github:
+	git push origin branch
+
+going back to master:
+	git checkout master
+
+
+branch_A is the branch you want to get file from...
+branch_own is where you want file added to
+
+
+1.git checkout branchA
+2.git pull  origin branchA 
+3.copy file to other folder outside of Repo. (daniel's personal preference: try avoid desktop)
+4.git checkout ownbranch
+5.copy file into repo
+6.git add filename
+7. git commit -m "message"
+8. git push origin branch_own (optional)
+
+
+otherwise: git pull branchown (that's just merging the 2 branches)
